@@ -1,0 +1,9 @@
+# Run dbt from the project root with: dbt run --profiles-dir .
+chicago_morning_brief:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: morning_brief.duckdb
+      schema: main
+      threads: 1

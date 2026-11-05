@@ -1,0 +1,6 @@
+dbt-duckdb==1.11.1
+dbt-core==1.12.6
+duckdb==2.0.0
+requests==2.34.2
+# Time zone data for zoneinfo (needed on Windows; also pulled in by dbt)
+tzdata==2026.6

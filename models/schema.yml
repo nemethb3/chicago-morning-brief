@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_311_requests
+    description: One row per 311 service request, typed and trimmed.
+    columns:
+      - name: service_request_number
+        description: City service request ID (sr_number in the source).
+        tests:
+          - unique
+          - not_null
+      - name: status
+        description: Request status as reported by the city.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Open', 'Completed', 'Canceled']
+
+  - name: stg_weather_daily
+    description: One row per date of Open-Meteo daily weather.
+
+  - name: int_311_daily
+    description: One row per date and request type, with request, closed, and open counts.
+
+  - name: mart_daily_brief
+    description: One row per date with weather and a 311 activity summary.
+    columns:
+      - name: brief_date
+        description: Calendar date (Chicago time).
+        tests:
+          - unique
+          - not_null

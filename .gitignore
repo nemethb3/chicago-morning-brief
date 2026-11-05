@@ -1,0 +1,16 @@
+# dbt
+target/
+dbt_packages/
+logs/
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# Raw extracts (keep the folder)
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+.venv/
+__pycache__/

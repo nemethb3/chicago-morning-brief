@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw tables loaded by the scripts in ingest/. Every column is stored as text.
+    schema: raw
+    tables:
+      - name: requests
+        description: Chicago 311 service requests from the last 7 days (Chicago Data Portal, dataset v6vf-nfxy).
+      - name: forecast
+        description: Open-Meteo daily weather for Chicago (past 6 days, today, and the next 6 days).

@@ -1,0 +1,19 @@
+name: chicago_morning_brief
+version: "1.0.0"
+config-version: 2
+
+profile: chicago_morning_brief
+
+model-paths: ["models"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  chicago_morning_brief:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
