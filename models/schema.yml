@@ -14,7 +14,7 @@ models:
         tests:
           - accepted_values:
               arguments:
-                values: ['Open', 'Completed', 'Canceled']
+                values: ['Open', 'Completed', 'Canceled', 'Closed']
 
   - name: stg_weather_daily
     description: One row per date of Open-Meteo daily weather.
@@ -23,7 +23,10 @@ models:
     description: One row per date and request type, with request, closed, and open counts.
 
   - name: mart_daily_brief
-    description: One row per date with weather and a 311 activity summary.
+    description: >
+      One row per date with weather (temperatures in °F) and a 311 activity summary.
+      total_requests counts all requests; top_request_type excludes
+      "311 INFORMATION ONLY CALL", which is not a service request.
     columns:
       - name: brief_date
         description: Calendar date (Chicago time).

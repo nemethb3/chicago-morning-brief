@@ -10,6 +10,8 @@ with daily_totals as (
 ),
 
 -- Rank request types within each day; ties broken alphabetically.
+-- Information-only calls are not service requests, so they are left out of
+-- the ranking. total_requests above still counts them.
 ranked_types as (
     select
         created_date,
@@ -20,6 +22,7 @@ ranked_types as (
             order by request_count desc, sr_type
         ) as type_rank
     from {{ ref('int_311_daily') }}
+    where sr_type <> '311 INFORMATION ONLY CALL'
 ),
 
 top_type as (
@@ -30,8 +33,8 @@ top_type as (
 
 select
     t.created_date                as brief_date,
-    w.temp_max_c,
-    w.temp_min_c,
+    w.temp_max_f,
+    w.temp_min_f,
     w.precipitation_mm,
     t.total_requests,
     top.sr_type                   as top_request_type,

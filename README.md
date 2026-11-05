@@ -3,9 +3,10 @@
 A daily briefing for Chicago, built as a [dbt](https://www.getdbt.com/) project on
 [DuckDB](https://duckdb.org/). Each run pulls the last 7 days of Chicago 311 service
 requests and the daily weather. It then builds one table, `mart_daily_brief`, with one
-row per date: temperature high and low, precipitation, total 311 requests, the most
-common request type that day and its count, and how many of that day's requests are
-still open.
+row per date: temperature high and low (°F), precipitation, total 311 requests, the
+most common request type that day and its count, and how many of that day's requests
+are still open. `total_requests` counts every request, but `top_request_type` leaves out
+"311 INFORMATION ONLY CALL", which is an information call rather than a service request.
 
 v1 runs entirely on your machine. It uses two free data sources and needs no API keys,
 accounts, or paid services. Nothing is deployed; there is no live demo.
@@ -37,13 +38,13 @@ Open-Meteo ──┘   (CSV + DuckDB)   └─ stg_weather_daily ─────
 | Layer | Where | What it does |
 |---|---|---|
 | raw | `raw.requests`, `raw.forecast` (DuckDB) | Loaded by `ingest/ingest_311.py` and `ingest/ingest_weather.py`. Each run also writes a CSV to `data/raw/` and replaces its table. All columns are stored as text. |
-| staging | `models/staging/` (views) | `stg_311_requests` casts dates to timestamps, trims `sr_type` and `status`, casts `ward` to integer, and drops rows without an ID or created date. `stg_weather_daily` has one typed row per date. |
-| intermediate | `models/intermediate/` (view) | `int_311_daily`: one row per date and request type with request, closed (Completed or Canceled), and open counts. |
-| marts | `models/marts/` (table) | `mart_daily_brief`: one row per date in the 311 window, with that day's weather. |
+| staging | `models/staging/` (views) | `stg_311_requests` casts dates to timestamps, trims `sr_type` and `status`, casts `ward` to integer, and drops rows without an ID or created date. `stg_weather_daily` has one typed row per date, with temperatures in °C plus °F copies. |
+| intermediate | `models/intermediate/` (view) | `int_311_daily`: one row per date and request type with request, closed (Completed, Canceled, or Closed), and open counts. |
+| marts | `models/marts/` (table) | `mart_daily_brief`: one row per date in the 311 window, with that day's weather. Temperatures are in °F (`temp_max_f`, `temp_min_f`); staging keeps Celsius alongside them. `total_requests` includes all requests; `top_request_type` excludes information-only calls. |
 
 Tests are in `models/schema.yml`:
 - `service_request_number` must be unique and not null in staging.
-- `status` must be Open, Completed, or Canceled.
+- `status` must be Open, Completed, Canceled, or Closed.
 - `brief_date` must be unique and not null in the mart.
 
 The DuckDB file is `morning_brief.duckdb` in the project root. `profiles.yml` also
@@ -79,3 +80,5 @@ python -c "import duckdb; print(duckdb.connect('morning_brief.duckdb').execute('
 - **CTA arrivals**: add Chicago Transit Authority train and bus arrival data.
 - **Snowflake swap**: run the same dbt models on Snowflake instead of DuckDB.
 - **Daily schedule**: run the pipeline automatically every morning.
+- **Google Calendar for your day**: a read-only pull of today's events into the brief,
+  with credentials stored locally and never committed.

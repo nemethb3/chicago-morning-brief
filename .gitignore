@@ -2,6 +2,8 @@
 target/
 dbt_packages/
 logs/
+# dbt anonymous usage-tracking ID, written to the profiles dir (project root)
+.user.yml
 
 # DuckDB database files
 *.duckdb
