@@ -16,3 +16,6 @@ dbt run --profiles-dir .
 
 echo "== dbt test =="
 dbt test --profiles-dir .
+
+echo "== Rendering brief.md =="
+python scripts/render_brief.py
