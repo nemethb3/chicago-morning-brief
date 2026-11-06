@@ -1,5 +1,7 @@
 # Chicago Morning Brief
 
+[![Daily brief](https://github.com/nemethb3/chicago-morning-brief/actions/workflows/daily-brief.yml/badge.svg)](https://github.com/nemethb3/chicago-morning-brief/actions/workflows/daily-brief.yml)
+
 A daily briefing for Chicago, built as a [dbt](https://www.getdbt.com/) project on
 [DuckDB](https://duckdb.org/). Each run pulls the last 7 days of Chicago 311 service
 requests and the daily weather. It then builds one table, `mart_daily_brief`, with one
@@ -75,6 +77,14 @@ To look at the result:
 python -c "import duckdb; print(duckdb.connect('morning_brief.duckdb').execute('select * from mart_daily_brief').fetchall())"
 ```
 
+### Daily schedule
+
+GitHub Actions ([`.github/workflows/daily-brief.yml`](.github/workflows/daily-brief.yml))
+runs `bash run_brief.sh` every morning at 12:00 UTC. It also runs on every pull request
+and on every push to `main`, and it can be started by hand from the Actions tab. It
+needs no secrets. Each run starts from a fresh checkout and nothing is committed back,
+so it checks that the pipeline still works rather than publishing a brief.
+
 ## Findings
 
 *Snapshot from a run on 2026-11-05 at 5:47 PM Chicago time, covering requests created
@@ -100,6 +110,5 @@ latest request in this pull was created at 1:14 PM. These numbers go stale on th
 
 - **CTA arrivals**: add Chicago Transit Authority train and bus arrival data.
 - **Snowflake swap**: run the same dbt models on Snowflake instead of DuckDB.
-- **Daily schedule**: run the pipeline automatically every morning.
 - **Google Calendar for your day**: a read-only pull of today's events into the brief,
   with credentials stored locally and never committed.

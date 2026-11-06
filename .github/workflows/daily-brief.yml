@@ -1,0 +1,39 @@
+# Runs the Chicago Morning Brief pipeline (both ingest scripts, dbt run, dbt test)
+# by calling run_brief.sh. Runs daily at 12:00 UTC (6 AM Chicago standard time,
+# 7 AM daylight time), on pushes and pull requests to main, and on demand.
+# Needs no secrets: both data sources are free and keyless.
+name: Daily brief
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One run at a time; a new run waits for the current one instead of overlapping.
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the pipeline
+        run: bash run_brief.sh
