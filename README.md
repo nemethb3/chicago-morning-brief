@@ -64,7 +64,8 @@ bash run_brief.sh
 ```
 
 `run_brief.sh` runs both ingest scripts, then `dbt run --profiles-dir .` and
-`dbt test --profiles-dir .`. To run dbt on its own:
+`dbt test --profiles-dir .`, then `scripts/render_brief.py`, which writes the brief to
+[`brief.md`](brief.md). To run dbt on its own:
 
 ```bash
 dbt run --profiles-dir .
@@ -82,29 +83,13 @@ python -c "import duckdb; print(duckdb.connect('morning_brief.duckdb').execute('
 GitHub Actions ([`.github/workflows/daily-brief.yml`](.github/workflows/daily-brief.yml))
 runs `bash run_brief.sh` every morning at 12:00 UTC. It also runs on every pull request
 and on every push to `main`, and it can be started by hand from the Actions tab. It
-needs no secrets. Each run starts from a fresh checkout and nothing is committed back,
-so it checks that the pipeline still works rather than publishing a brief.
+needs no secrets. Runs on `main` commit the refreshed `brief.md` back to `main` (only
+when it changed); pull request runs build the brief but commit nothing.
 
-## Findings
+### Latest brief
 
-*Snapshot from a run on 2026-11-05 at 5:47 PM Chicago time, covering requests created
-2026-10-30 through 2026-11-05. Today (2026-11-05) is partial: the day isn't over, and the
-latest request in this pull was created at 1:14 PM. These numbers go stale on the next run.*
-
-- **Volume:** 34,198 requests in the window. The busiest day was 2026-11-03 with 6,282.
-  The quietest was 2026-11-05 with 2,336, but that day is partial; the quietest full day
-  was 2026-10-31 with 4,046.
-- **Top request types** (excluding "311 INFORMATION ONLY CALL", which had 9,492 calls):
-  Aircraft Noise Complaint 10,306; Graffiti Removal Request 1,897; Rodent Baiting/Rat
-  Complaint 909; Abandoned Vehicle Complaint 881; Garbage Cart Maintenance 863.
-- **Open vs. closed:** 7,212 requests (21.1%) are open and 26,986 (78.9%) are closed
-  (Completed, Canceled, or Closed).
-- **Weather:** the rainiest day was 2026-11-01 with 1.1 mm. The busiest 311 day
-  (2026-11-03) was dry and the warmest day (high 70.9°F). There is no clear pattern
-  between weather and request volume in this window: 2026-10-30, the second-busiest day
-  (6,085), was dry with a high of 54.9°F, and seven days is too few to say more.
-- **Wards:** excluding information-only calls, Ward 41 had 10,507 requests. The next
-  highest, Ward 32, had 513. Of Ward 41's requests, 10,255 were Aircraft Noise Complaints.
+The latest brief is in [`brief.md`](brief.md): the day-by-day table, top request types,
+open and closed share, and a weather note, refreshed by each run on `main`.
 
 ## Roadmap (v2 ideas, not built)
 
