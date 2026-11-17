@@ -1,0 +1,7 @@
+date,temp_max_f,temp_min_f,precipitation_mm,total_requests,top_request_type,top_type_count,open_requests
+2026-11-11,53.2,40.1,3.3,5488,Aircraft Noise Complaint,1896,884
+2026-11-12,44.1,36.7,1.8,6297,Aircraft Noise Complaint,1377,1110
+2026-11-13,40.6,33.3,10.5,5139,Aircraft Noise Complaint,696,1390
+2026-11-14,44.4,30.7,1.1,3769,Aircraft Noise Complaint,1027,661
+2026-11-15,48.7,30.6,0.0,4765,Aircraft Noise Complaint,2089,666
+2026-11-16,51.6,31.1,0.0,5294,Aircraft Noise Complaint,732,1493

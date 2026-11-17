@@ -1,5 +1,6 @@
 # Runs the Chicago Morning Brief pipeline (both ingest scripts, dbt run, dbt test,
-# render brief.md) by calling run_brief.sh. On main, commits the refreshed brief.md.
+# append history, render brief.md) by calling run_brief.sh. On main, commits the
+# refreshed brief.md and history CSVs.
 # Runs daily at 12:00 UTC (6 AM Chicago standard time, 7 AM daylight time), on pushes
 # and pull requests to main, and on demand.
 # Needs no secrets: both data sources are free and keyless.
@@ -14,7 +15,7 @@ on:
     - cron: "0 12 * * *"
   workflow_dispatch:
 
-# Write access so runs on main can push brief.md. Pushes made with the workflow's
+# Write access so runs on main can push brief.md and history. Pushes made with the workflow's
 # own token do not trigger new runs, so this cannot loop.
 permissions:
   contents: write
@@ -42,15 +43,17 @@ jobs:
         run: bash run_brief.sh
 
       # Only on main; pull request runs never commit.
-      - name: Commit refreshed brief.md
+      - name: Commit refreshed brief and history
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add brief.md
+          git add brief.md data/history/*.csv data/community_areas.csv
           if git diff --cached --quiet; then
-            echo "brief.md unchanged; nothing to commit."
+            echo "Brief and history unchanged; nothing to commit."
             exit 0
           fi
           git commit -m "Daily brief: $(TZ=America/Chicago date +%Y-%m-%d)"
+          # Rebase onto any push to main made during this run, so the push is not rejected.
+          git pull --rebase origin main
           git push
