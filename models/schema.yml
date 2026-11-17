@@ -22,6 +22,19 @@ models:
   - name: int_311_daily
     description: One row per date and request type, with request, closed, and open counts.
 
+  - name: int_311_daily_by_area
+    description: >
+      One row per date and community area (1-77), with request, closed, and open counts.
+      Requests with no community area and "311 INFORMATION ONLY CALL" rows are excluded.
+    columns:
+      - name: community_area
+        description: Chicago community area number (1-77). Names are in data/community_areas.csv.
+        tests:
+          - not_null
+      - name: request_count
+        tests:
+          - not_null
+
   - name: mart_daily_brief
     description: >
       One row per date with weather (temperatures in °F) and a 311 activity summary.

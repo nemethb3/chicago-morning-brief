@@ -1,0 +1,450 @@
+date,sr_type,request_count,closed_count,open_count
+2026-11-11,Abandoned Vehicle Complaint,123,38,85
+2026-11-11,Aircraft Noise Complaint,1896,1896,0
+2026-11-11,Alley Light Out Complaint,13,7,6
+2026-11-11,Alley Pothole Complaint,25,3,22
+2026-11-11,Animal In Trap Complaint,1,1,0
+2026-11-11,Bee/Wasp Removal,1,1,0
+2026-11-11,Bicycle Request/Complaint,2,0,2
+2026-11-11,Blue Recycling Cart,41,0,41
+2026-11-11,Building Violation,77,24,53
+2026-11-11,Buildings - Plumbing Violation,22,0,22
+2026-11-11,Bungalow/Vintage Home Information Request,1,0,1
+2026-11-11,Business Complaints,12,0,12
+2026-11-11,Cab Feedback,20,6,14
+2026-11-11,Cable TV Complaint,2,0,2
+2026-11-11,Check for Leak,16,12,4
+2026-11-11,City Vehicle Sticker Violation,18,13,5
+2026-11-11,Clean Vacant Lot Request,9,6,3
+2026-11-11,Commercial Fire Safety Inspection Request,3,0,3
+2026-11-11,Consumer Fraud Complaint,3,0,3
+2026-11-11,Coyote Interaction Complaint,17,17,0
+2026-11-11,Dead Animal Pick-Up Request,46,43,3
+2026-11-11,Dead Bird,1,0,1
+2026-11-11,Divvy Bike Parking Complaint,5,5,0
+2026-11-11,E-Scooter Parking Complaint,24,20,4
+2026-11-11,Finance Parking Code Enforcement Review,97,97,0
+2026-11-11,Fly Dumping Complaint,59,39,20
+2026-11-11,Garbage Cart Maintenance,105,3,102
+2026-11-11,Graffiti Removal Request,120,116,4
+2026-11-11,Inspect Public Way Request,17,11,6
+2026-11-11,Lead Inspection Request,1,1,0
+2026-11-11,Low Water Pressure Complaint,4,4,0
+2026-11-11,Missed Garbage Pick-Up Complaint,63,54,9
+2026-11-11,No Building Permit and Construction Violation,24,0,24
+2026-11-11,No Water Complaint,3,3,0
+2026-11-11,Nuisance Animal Complaint,20,0,20
+2026-11-11,Open Fire Hydrant Complaint,1,1,0
+2026-11-11,Pet Wellness Check Request,15,14,1
+2026-11-11,Pothole in Street Complaint,52,10,42
+2026-11-11,Recycling Pick Up,10,10,0
+2026-11-11,Report an Injured Animal,29,29,0
+2026-11-11,Restaurant Complaint,19,6,13
+2026-11-11,Rodent Baiting/Rat Complaint,112,31,81
+2026-11-11,Sanitation Code Violation,27,17,10
+2026-11-11,Sewer Cave-In Inspection Request,4,2,2
+2026-11-11,Sewer Cleaning Inspection Request,14,5,9
+2026-11-11,Sidewalk Café/Outdoor Dining Complaint,1,0,1
+2026-11-11,Sidewalk Inspection Request,24,0,24
+2026-11-11,Sign Repair Request - All Other Signs,21,0,21
+2026-11-11,Sign Repair Request - Stop Sign,3,3,0
+2026-11-11,Stray Animal Complaint,30,22,8
+2026-11-11,Street Cleaning Request,15,12,3
+2026-11-11,Street Light Out Complaint,94,60,34
+2026-11-11,Street Light Pole Damage Complaint,3,3,0
+2026-11-11,Street Light Pole Door Missing Complaint,2,0,2
+2026-11-11,Submerged Divvy or Lime Device in the Lake/River,1,0,1
+2026-11-11,Tobacco - Sale to Minors Complaint,1,1,0
+2026-11-11,Traffic Signal Out Complaint,45,34,11
+2026-11-11,Tree Debris Clean-Up Request,31,17,14
+2026-11-11,Tree Emergency,20,20,0
+2026-11-11,Tree Planting Request,24,0,24
+2026-11-11,Tree Removal Inspection,20,1,19
+2026-11-11,Vacant/Abandoned Building Complaint,13,2,11
+2026-11-11,Viaduct Light Out Complaint,1,0,1
+2026-11-11,Vicious Animal Complaint,9,9,0
+2026-11-11,Water Lead Test Kit Request,65,2,63
+2026-11-11,Water Lead Test Visit Request,7,0,7
+2026-11-11,Water On Street Complaint,11,9,2
+2026-11-11,Water Quality Concern,1,0,1
+2026-11-11,Water in Basement Complaint,4,4,0
+2026-11-11,Wire Basket Request,2,2,0
+2026-11-11,Yard Waste Pick-Up Request,110,102,8
+2026-11-12,Abandoned Vehicle Complaint,146,43,103
+2026-11-12,Aircraft Noise Complaint,1377,1377,0
+2026-11-12,Alley Light Out Complaint,24,11,13
+2026-11-12,Alley Pothole Complaint,21,3,18
+2026-11-12,Alley Sewer Inspection Request,3,0,3
+2026-11-12,Bee/Wasp Removal,2,2,0
+2026-11-12,Bicycle Request/Complaint,3,0,3
+2026-11-12,Blue Recycling Cart,65,0,65
+2026-11-12,Building Violation,88,32,56
+2026-11-12,Buildings - Plumbing Violation,38,3,35
+2026-11-12,Business Complaints,8,3,5
+2026-11-12,Cab Feedback,9,0,9
+2026-11-12,Cable TV Complaint,2,1,1
+2026-11-12,Check for Leak,12,8,4
+2026-11-12,City Vehicle Sticker Violation,14,5,9
+2026-11-12,Clean Vacant Lot Request,14,11,3
+2026-11-12,Commercial Fire Safety Inspection Request,1,0,1
+2026-11-12,Consumer Fraud Complaint,11,2,9
+2026-11-12,Consumer Retail Business Complaint,2,1,1
+2026-11-12,Coyote Interaction Complaint,16,15,1
+2026-11-12,Dead Animal Pick-Up Request,35,30,5
+2026-11-12,Dead Bird,2,1,1
+2026-11-12,Divvy Bike Parking Complaint,4,4,0
+2026-11-12,E-Scooter Parking Complaint,15,15,0
+2026-11-12,Finance Parking Code Enforcement Review,67,67,0
+2026-11-12,Fly Dumping Complaint,50,19,31
+2026-11-12,Garbage Cart Maintenance,158,0,158
+2026-11-12,Graffiti Removal Request,338,334,4
+2026-11-12,Inspect Public Way Request,56,35,21
+2026-11-12,Lead Inspection Request,1,1,0
+2026-11-12,Low Water Pressure Complaint,4,2,2
+2026-11-12,Missed Garbage Pick-Up Complaint,102,90,12
+2026-11-12,No Building Permit and Construction Violation,21,0,21
+2026-11-12,No Water Complaint,5,5,0
+2026-11-12,Nuisance Animal Complaint,14,1,13
+2026-11-12,Open Fire Hydrant Complaint,5,4,1
+2026-11-12,Pet Wellness Check Request,8,7,1
+2026-11-12,Porch Inspection Request,2,1,1
+2026-11-12,Pothole in Street Complaint,85,24,61
+2026-11-12,Protected Bike Lane - Debris Removal,5,0,5
+2026-11-12,Recycling Inspection Request,1,0,1
+2026-11-12,Recycling Pick Up,24,24,0
+2026-11-12,Report an Injured Animal,27,27,0
+2026-11-12,Restaurant Complaint,9,6,3
+2026-11-12,Rodent Baiting/Rat Complaint,133,28,105
+2026-11-12,Sanitation Code Violation,41,24,17
+2026-11-12,Sewer Cave-In Inspection Request,14,5,9
+2026-11-12,Sewer Cleaning Inspection Request,61,49,12
+2026-11-12,Shared Housing/Vacation Rental Complaint,1,1,0
+2026-11-12,Sidewalk Café/Outdoor Dining Complaint,1,0,1
+2026-11-12,Sidewalk Inspection Request,23,0,23
+2026-11-12,Sign Repair Request - All Other Signs,47,17,30
+2026-11-12,Sign Repair Request - Do Not Enter Sign,1,1,0
+2026-11-12,Sign Repair Request - One Way Sign,9,9,0
+2026-11-12,Sign Repair Request - Stop Sign,8,8,0
+2026-11-12,Snow – Uncleared Sidewalk Complaint,1,1,0
+2026-11-12,Stray Animal Complaint,33,29,4
+2026-11-12,Street Cleaning Request,18,13,5
+2026-11-12,Street Light On During Day Complaint,1,0,1
+2026-11-12,Street Light Out Complaint,92,64,28
+2026-11-12,Street Light Pole Damage Complaint,14,11,3
+2026-11-12,Street Light Pole Door Missing Complaint,2,0,2
+2026-11-12,Traffic Signal Out Complaint,75,62,13
+2026-11-12,Tree Debris Clean-Up Request,54,18,36
+2026-11-12,Tree Emergency,27,27,0
+2026-11-12,Tree Planting Request,10,0,10
+2026-11-12,Tree Removal Inspection,49,12,37
+2026-11-12,Tree Trim Request (NO LONGER BEING ACCEPTED),128,128,0
+2026-11-12,Vacant/Abandoned Building Complaint,24,2,22
+2026-11-12,Viaduct Light Out Complaint,2,0,2
+2026-11-12,Vicious Animal Complaint,17,17,0
+2026-11-12,Wage Complaint,5,1,4
+2026-11-12,Water Lead Test Kit Request,729,686,43
+2026-11-12,Water Lead Test Visit Request,9,1,8
+2026-11-12,Water On Street Complaint,3,0,3
+2026-11-12,Water Quality Concern,3,0,3
+2026-11-12,Water in Basement Complaint,7,5,2
+2026-11-12,Wire Basket Request,4,4,0
+2026-11-12,Yard Waste Pick-Up Request,60,53,7
+2026-11-13,Abandoned Vehicle Complaint,128,40,88
+2026-11-13,Aircraft Noise Complaint,696,696,0
+2026-11-13,Alley Light Out Complaint,13,5,8
+2026-11-13,Alley Pothole Complaint,34,2,32
+2026-11-13,Alley Sewer Inspection Request,3,0,3
+2026-11-13,Bee/Wasp Removal,3,3,0
+2026-11-13,Bicycle Request/Complaint,28,0,28
+2026-11-13,Blue Recycling Cart,50,0,50
+2026-11-13,Building Violation,63,26,37
+2026-11-13,Buildings - Plumbing Violation,18,0,18
+2026-11-13,Business Complaints,9,0,9
+2026-11-13,Cab Feedback,12,3,9
+2026-11-13,Cable TV Complaint,1,0,1
+2026-11-13,Check for Leak,19,12,7
+2026-11-13,City Vehicle Sticker Violation,22,2,20
+2026-11-13,Clean Vacant Lot Request,5,1,4
+2026-11-13,Consumer Fraud Complaint,6,0,6
+2026-11-13,Consumer Retail Business Complaint,4,0,4
+2026-11-13,Coyote Interaction Complaint,11,11,0
+2026-11-13,Dead Animal Pick-Up Request,30,26,4
+2026-11-13,Dead Bird,2,2,0
+2026-11-13,Divvy Bike Parking Complaint,10,10,0
+2026-11-13,E-Scooter Parking Complaint,14,14,0
+2026-11-13,Finance Parking Code Enforcement Review,61,61,0
+2026-11-13,Fly Dumping Complaint,38,23,15
+2026-11-13,Garbage Cart Maintenance,157,1,156
+2026-11-13,Graffiti Removal Request,311,307,4
+2026-11-13,Inaccurate Fuel Pump Complaint,1,0,1
+2026-11-13,Inspect Public Way Request,51,33,18
+2026-11-13,Low Water Pressure Complaint,8,7,1
+2026-11-13,Missed Garbage Pick-Up Complaint,71,56,15
+2026-11-13,No Building Permit and Construction Violation,19,0,19
+2026-11-13,No Solicitation Complaint,3,0,3
+2026-11-13,No Water Complaint,11,11,0
+2026-11-13,Nuisance Animal Complaint,9,1,8
+2026-11-13,Outdated Merchandise Complaint,1,0,1
+2026-11-13,Paid Sick Leave Violation,2,2,0
+2026-11-13,Pet Wellness Check Request,10,6,4
+2026-11-13,Porch Inspection Request,2,2,0
+2026-11-13,Pothole in Street Complaint,67,16,51
+2026-11-13,Protected Bike Lane - Debris Removal,1,0,1
+2026-11-13,Public Vehicle Complaint,1,1,0
+2026-11-13,Recycling Pick Up,16,15,1
+2026-11-13,Report an Injured Animal,24,24,0
+2026-11-13,Restaurant Complaint,11,5,6
+2026-11-13,Ridesharing Complaint,2,1,1
+2026-11-13,Rodent Baiting/Rat Complaint,129,31,98
+2026-11-13,Sanitation Code Violation,28,10,18
+2026-11-13,Sewer Cave-In Inspection Request,11,1,10
+2026-11-13,Sewer Cleaning Inspection Request,67,55,12
+2026-11-13,Shared Housing/Vacation Rental Complaint,1,0,1
+2026-11-13,Sidewalk Café/Outdoor Dining Complaint,1,0,1
+2026-11-13,Sidewalk Inspection Request,17,0,17
+2026-11-13,Sign Repair Request - All Other Signs,48,15,33
+2026-11-13,Sign Repair Request - Do Not Enter Sign,2,2,0
+2026-11-13,Sign Repair Request - One Way Sign,9,9,0
+2026-11-13,Sign Repair Request - Stop Sign,15,15,0
+2026-11-13,Stray Animal Complaint,34,14,20
+2026-11-13,Street Cleaning Request,22,13,9
+2026-11-13,Street Light On During Day Complaint,6,0,6
+2026-11-13,Street Light Out Complaint,84,58,26
+2026-11-13,Street Light Pole Damage Complaint,8,6,2
+2026-11-13,Street Light Pole Door Missing Complaint,1,0,1
+2026-11-13,Traffic Signal Out Complaint,80,58,22
+2026-11-13,Tree Debris Clean-Up Request,37,15,22
+2026-11-13,Tree Emergency,31,28,3
+2026-11-13,Tree Planting Request,12,0,12
+2026-11-13,Tree Removal Inspection,46,4,42
+2026-11-13,Tree Trim Request (NO LONGER BEING ACCEPTED),234,234,0
+2026-11-13,Vacant/Abandoned Building Complaint,20,1,19
+2026-11-13,Viaduct Light Out Complaint,1,0,1
+2026-11-13,Vicious Animal Complaint,15,15,0
+2026-11-13,Wage Complaint,11,0,11
+2026-11-13,Water Lead Test Kit Request,346,2,344
+2026-11-13,Water Lead Test Visit Request,9,0,9
+2026-11-13,Water On Street Complaint,7,3,4
+2026-11-13,Water Quality Concern,1,0,1
+2026-11-13,Water in Basement Complaint,3,3,0
+2026-11-13,Wire Basket Request,1,1,0
+2026-11-13,Yard Waste Pick-Up Request,44,31,13
+2026-11-14,Abandoned Vehicle Complaint,71,14,57
+2026-11-14,Aircraft Noise Complaint,1027,1027,0
+2026-11-14,Alley Light Out Complaint,28,12,16
+2026-11-14,Alley Pothole Complaint,12,1,11
+2026-11-14,Bicycle Request/Complaint,2,0,2
+2026-11-14,Blue Recycling Cart,29,0,29
+2026-11-14,Building Violation,48,13,35
+2026-11-14,Buildings - Plumbing Violation,19,0,19
+2026-11-14,Business Complaints,6,0,6
+2026-11-14,Cab Feedback,16,3,13
+2026-11-14,Check for Leak,15,7,8
+2026-11-14,City Vehicle Sticker Violation,12,3,9
+2026-11-14,Clean Vacant Lot Request,2,0,2
+2026-11-14,Commercial Fire Safety Inspection Request,1,0,1
+2026-11-14,Consumer Retail Business Complaint,1,0,1
+2026-11-14,Coyote Interaction Complaint,16,16,0
+2026-11-14,Dead Animal Pick-Up Request,34,28,6
+2026-11-14,Divvy Bike Parking Complaint,5,5,0
+2026-11-14,E-Scooter Parking Complaint,11,9,2
+2026-11-14,Finance Parking Code Enforcement Review,44,44,0
+2026-11-14,Fly Dumping Complaint,24,16,8
+2026-11-14,Garbage Cart Maintenance,52,0,52
+2026-11-14,Graffiti Removal Request,78,76,2
+2026-11-14,Inspect Public Way Request,5,4,1
+2026-11-14,Low Water Pressure Complaint,1,1,0
+2026-11-14,Missed Garbage Pick-Up Complaint,15,13,2
+2026-11-14,No Building Permit and Construction Violation,6,0,6
+2026-11-14,No Water Complaint,3,3,0
+2026-11-14,Nuisance Animal Complaint,11,0,11
+2026-11-14,Open Fire Hydrant Complaint,3,3,0
+2026-11-14,Pet Wellness Check Request,9,3,6
+2026-11-14,Pothole in Street Complaint,34,6,28
+2026-11-14,Public Vehicle Complaint,2,1,1
+2026-11-14,Recycling Inspection Request,1,0,1
+2026-11-14,Recycling Pick Up,2,2,0
+2026-11-14,Report an Injured Animal,19,19,0
+2026-11-14,Restaurant Complaint,6,2,4
+2026-11-14,Rodent Baiting/Rat Complaint,83,2,81
+2026-11-14,Sanitation Code Violation,18,14,4
+2026-11-14,Sewer Cave-In Inspection Request,9,3,6
+2026-11-14,Sewer Cleaning Inspection Request,3,1,2
+2026-11-14,Sidewalk Café/Outdoor Dining Complaint,2,0,2
+2026-11-14,Sidewalk Inspection Request,5,0,5
+2026-11-14,Sign Repair Request - All Other Signs,16,0,16
+2026-11-14,Sign Repair Request - Do Not Enter Sign,2,2,0
+2026-11-14,Sign Repair Request - One Way Sign,10,10,0
+2026-11-14,Sign Repair Request - Stop Sign,14,14,0
+2026-11-14,Stray Animal Complaint,39,1,38
+2026-11-14,Street Cleaning Request,13,8,5
+2026-11-14,Street Light On During Day Complaint,3,2,1
+2026-11-14,Street Light Out Complaint,92,62,30
+2026-11-14,Street Light Pole Damage Complaint,11,8,3
+2026-11-14,Street Light Pole Door Missing Complaint,4,0,4
+2026-11-14,Traffic Signal Out Complaint,48,41,7
+2026-11-14,Tree Debris Clean-Up Request,28,8,20
+2026-11-14,Tree Emergency,12,12,0
+2026-11-14,Tree Planting Request,4,0,4
+2026-11-14,Tree Removal Inspection,31,0,31
+2026-11-14,Vacant/Abandoned Building Complaint,6,0,6
+2026-11-14,Viaduct Light Out Complaint,1,0,1
+2026-11-14,Vicious Animal Complaint,9,9,0
+2026-11-14,Wage Complaint,4,0,4
+2026-11-14,Water Lead Test Kit Request,13,0,13
+2026-11-14,Water On Street Complaint,3,0,3
+2026-11-14,Water in Basement Complaint,4,4,0
+2026-11-14,Wire Basket Request,2,1,1
+2026-11-14,Yard Waste Pick-Up Request,92,57,35
+2026-11-15,Abandoned Vehicle Complaint,81,14,67
+2026-11-15,Aircraft Noise Complaint,2089,2089,0
+2026-11-15,Alley Light Out Complaint,5,3,2
+2026-11-15,Alley Pothole Complaint,7,0,7
+2026-11-15,Alley Sewer Inspection Request,1,0,1
+2026-11-15,Bee/Wasp Removal,1,1,0
+2026-11-15,Bicycle Request/Complaint,1,0,1
+2026-11-15,Blue Recycling Cart,23,0,23
+2026-11-15,Building Violation,44,2,42
+2026-11-15,Buildings - Plumbing Violation,13,1,12
+2026-11-15,Bungalow/Vintage Home Information Request,2,0,2
+2026-11-15,Business Complaints,7,0,7
+2026-11-15,Cab Feedback,13,4,9
+2026-11-15,Check for Leak,13,9,4
+2026-11-15,City Vehicle Sticker Violation,17,6,11
+2026-11-15,Clean Vacant Lot Request,2,0,2
+2026-11-15,Commercial Fire Safety Inspection Request,1,0,1
+2026-11-15,Consumer Fraud Complaint,2,0,2
+2026-11-15,Consumer Retail Business Complaint,2,0,2
+2026-11-15,Coyote Interaction Complaint,12,12,0
+2026-11-15,Dead Animal Pick-Up Request,49,35,14
+2026-11-15,Dead Bird,1,1,0
+2026-11-15,Divvy Bike Parking Complaint,3,3,0
+2026-11-15,E-Scooter Parking Complaint,16,15,1
+2026-11-15,Finance Parking Code Enforcement Review,51,51,0
+2026-11-15,Fly Dumping Complaint,31,14,17
+2026-11-15,Garbage Cart Maintenance,54,2,52
+2026-11-15,Graffiti Removal Request,122,121,1
+2026-11-15,Inspect Public Way Request,9,7,2
+2026-11-15,Missed Garbage Pick-Up Complaint,10,4,6
+2026-11-15,No Air Conditioning,1,0,1
+2026-11-15,No Building Permit and Construction Violation,4,0,4
+2026-11-15,Nuisance Animal Complaint,13,0,13
+2026-11-15,Open Fire Hydrant Complaint,3,0,3
+2026-11-15,Pet Wellness Check Request,17,13,4
+2026-11-15,Porch Inspection Request,1,0,1
+2026-11-15,Pothole in Street Complaint,29,2,27
+2026-11-15,Protected Bike Lane - Debris Removal,1,0,1
+2026-11-15,Public Vehicle Complaint,1,1,0
+2026-11-15,Pushcart Food Vendor Complaint,1,1,0
+2026-11-15,Recycling Pick Up,7,6,1
+2026-11-15,Report an Injured Animal,20,20,0
+2026-11-15,Restaurant Complaint,13,7,6
+2026-11-15,Ridesharing Complaint,1,0,1
+2026-11-15,Rodent Baiting/Rat Complaint,79,4,75
+2026-11-15,Sanitation Code Violation,18,10,8
+2026-11-15,Sewer Cave-In Inspection Request,5,1,4
+2026-11-15,Sewer Cleaning Inspection Request,3,0,3
+2026-11-15,Sidewalk Café/Outdoor Dining Complaint,1,1,0
+2026-11-15,Sidewalk Inspection Request,7,0,7
+2026-11-15,Sign Repair Request - All Other Signs,16,0,16
+2026-11-15,Sign Repair Request - Do Not Enter Sign,1,1,0
+2026-11-15,Sign Repair Request - One Way Sign,6,6,0
+2026-11-15,Sign Repair Request - Stop Sign,11,11,0
+2026-11-15,Stray Animal Complaint,35,5,30
+2026-11-15,Street Cleaning Request,18,10,8
+2026-11-15,Street Light On During Day Complaint,2,0,2
+2026-11-15,Street Light Out Complaint,78,43,35
+2026-11-15,Street Light Pole Damage Complaint,5,4,1
+2026-11-15,Tobacco - General Complaint,1,0,1
+2026-11-15,Tobacco - Sale to Minors Complaint,1,0,1
+2026-11-15,Traffic Signal Out Complaint,51,44,7
+2026-11-15,Tree Debris Clean-Up Request,11,2,9
+2026-11-15,Tree Emergency,5,5,0
+2026-11-15,Tree Planting Request,10,0,10
+2026-11-15,Tree Removal Inspection,14,0,14
+2026-11-15,Vacant/Abandoned Building Complaint,2,0,2
+2026-11-15,Vicious Animal Complaint,6,6,0
+2026-11-15,Wage Complaint,1,0,1
+2026-11-15,Water Lead Test Kit Request,11,1,10
+2026-11-15,Water On Street Complaint,6,4,2
+2026-11-15,Water Quality Concern,1,0,1
+2026-11-15,Water in Basement Complaint,1,1,0
+2026-11-15,Wire Basket Request,1,1,0
+2026-11-15,Yard Waste Pick-Up Request,177,108,69
+2026-11-16,Abandoned Vehicle Complaint,172,47,125
+2026-11-16,Aircraft Noise Complaint,732,732,0
+2026-11-16,Alley Light Out Complaint,8,3,5
+2026-11-16,Alley Pothole Complaint,28,2,26
+2026-11-16,Bee/Wasp Removal,1,1,0
+2026-11-16,Bicycle Request/Complaint,3,0,3
+2026-11-16,Blue Recycling Cart,62,0,62
+2026-11-16,Building Violation,80,17,63
+2026-11-16,Buildings - Plumbing Violation,26,0,26
+2026-11-16,Business Complaints,14,0,14
+2026-11-16,Cab Feedback,11,4,7
+2026-11-16,Check for Leak,26,17,9
+2026-11-16,City Vehicle Sticker Violation,19,4,15
+2026-11-16,Clean Vacant Lot Request,11,2,9
+2026-11-16,Commercial Fire Safety Inspection Request,1,0,1
+2026-11-16,Consumer Fraud Complaint,7,3,4
+2026-11-16,Consumer Retail Business Complaint,3,0,3
+2026-11-16,Coyote Interaction Complaint,16,16,0
+2026-11-16,Dead Animal Pick-Up Request,54,37,17
+2026-11-16,Dead Bird,2,1,1
+2026-11-16,Divvy Bike Parking Complaint,10,10,0
+2026-11-16,E-Scooter Parking Complaint,19,15,4
+2026-11-16,Finance Parking Code Enforcement Review,70,70,0
+2026-11-16,Fly Dumping Complaint,64,25,39
+2026-11-16,Garbage Cart Maintenance,181,1,180
+2026-11-16,Graffiti Removal Request,335,312,23
+2026-11-16,Inspect Public Way Request,41,22,19
+2026-11-16,Low Water Pressure Complaint,5,3,2
+2026-11-16,Missed Garbage Pick-Up Complaint,47,34,13
+2026-11-16,No Building Permit and Construction Violation,19,0,19
+2026-11-16,No Water Complaint,6,6,0
+2026-11-16,Nuisance Animal Complaint,18,0,18
+2026-11-16,Open Fire Hydrant Complaint,6,5,1
+2026-11-16,Outdated Merchandise Complaint,1,0,1
+2026-11-16,Pet Wellness Check Request,7,1,6
+2026-11-16,Pothole in Street Complaint,109,16,93
+2026-11-16,Protected Bike Lane - Debris Removal,3,0,3
+2026-11-16,Public Vehicle Complaint,2,2,0
+2026-11-16,Pushcart Food Vendor Complaint,2,2,0
+2026-11-16,Recycling Pick Up,20,20,0
+2026-11-16,Report an Injured Animal,28,28,0
+2026-11-16,Restaurant Complaint,16,5,11
+2026-11-16,Rodent Baiting/Rat Complaint,170,20,150
+2026-11-16,Sanitation Code Violation,46,29,17
+2026-11-16,Sewer Cave-In Inspection Request,14,4,10
+2026-11-16,Sewer Cleaning Inspection Request,54,44,10
+2026-11-16,Shared Housing/Vacation Rental Complaint,5,4,1
+2026-11-16,Sidewalk Café/Outdoor Dining Complaint,1,0,1
+2026-11-16,Sidewalk Inspection Request,24,0,24
+2026-11-16,Sign Repair Request - All Other Signs,53,15,38
+2026-11-16,Sign Repair Request - Do Not Enter Sign,6,6,0
+2026-11-16,Sign Repair Request - One Way Sign,12,12,0
+2026-11-16,Sign Repair Request - Stop Sign,20,20,0
+2026-11-16,Stray Animal Complaint,36,5,31
+2026-11-16,Street Cleaning Request,19,7,12
+2026-11-16,Street Light On During Day Complaint,3,0,3
+2026-11-16,Street Light Out Complaint,109,43,66
+2026-11-16,Street Light Pole Damage Complaint,12,9,3
+2026-11-16,Street Light Pole Door Missing Complaint,1,0,1
+2026-11-16,Tobacco - Sale to Minors Complaint,1,0,1
+2026-11-16,Traffic Signal Out Complaint,87,61,26
+2026-11-16,Tree Debris Clean-Up Request,49,10,39
+2026-11-16,Tree Emergency,23,20,3
+2026-11-16,Tree Planting Request,44,0,44
+2026-11-16,Tree Removal Inspection,50,5,45
+2026-11-16,Tree Trim Request (NO LONGER BEING ACCEPTED),115,115,0
+2026-11-16,Vacant/Abandoned Building Complaint,16,3,13
+2026-11-16,Viaduct Light Out Complaint,2,0,2
+2026-11-16,Vicious Animal Complaint,14,13,1
+2026-11-16,Wage Complaint,3,2,1
+2026-11-16,Water Lead Test Kit Request,32,0,32
+2026-11-16,Water Lead Test Visit Request,8,0,8
+2026-11-16,Water On Street Complaint,15,3,12
+2026-11-16,Water Quality Concern,5,3,2
+2026-11-16,Water in Basement Complaint,6,2,4
+2026-11-16,Wire Basket Request,7,6,1
+2026-11-16,Yard Waste Pick-Up Request,143,73,70
