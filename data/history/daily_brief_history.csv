@@ -11,3 +11,4 @@ date,temp_max_f,temp_min_f,precipitation_mm,total_requests,top_request_type,top_
 2026-11-20,66.2,41.9,0.0,5307,Aircraft Noise Complaint,1140,1624
 2026-11-21,68.5,45.0,0.0,4196,Aircraft Noise Complaint,1587,1134
 2026-11-22,55.9,35.2,1.8,3657,Aircraft Noise Complaint,1127,793
+2026-11-23,41.9,30.0,0.0,5123,Aircraft Noise Complaint,801,1364
